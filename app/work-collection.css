@@ -1,0 +1,83 @@
+/* The same stage has two legible collections. Existing thread geometry is retained. */
+.work-section{padding-bottom:24px}
+.work-switcher{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:36px;border-bottom:1px solid #484844}
+.work-tabs{display:flex;gap:35px}
+.work-tabs button{display:flex;align-items:baseline;gap:15px;min-height:58px;padding:12px 0 17px;border:0;border-bottom:2px solid transparent;background:none;color:#aaa9a3;font-size:clamp(1.2rem,2vw,1.65rem);letter-spacing:-.025em;transition:color .25s,border-color .25s}
+.work-tabs button[aria-selected="true"]{color:#f3f3f1;border-color:#ef442e}
+.work-tabs button:hover{color:#f3f3f1}
+.work-tabs button>span{font-size:.6875rem;letter-spacing:.05em;color:#aaa9a3}
+.work-mode-note{margin:0 0 5px;font-size:.8125rem;color:#aaa9a3;text-align:right}
+#work-panel:focus-visible{outline:1px solid #747470;outline-offset:12px}
+.work-thread-exit{height:94px;position:relative;pointer-events:none}
+.work-section .scene-fragment{transition:transform .65s cubic-bezier(.22,1,.36,1),filter .55s,left .85s cubic-bezier(.22,1,.36,1),top .85s cubic-bezier(.22,1,.36,1),width .85s cubic-bezier(.22,1,.36,1)}
+.work-section .scene-card-enter{animation:work-card-enter .65s both}
+@keyframes work-card-enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.living-scene[data-mode="internships"] .scene-fragment{aspect-ratio:1.3}
+.living-scene[data-mode="internships"] .scene-space{aspect-ratio:1.45}
+.living-scene[data-mode="internships"] .scene-fragment-0{--size:40%;--tilt:-5deg;left:2%;top:0}
+.living-scene[data-mode="internships"] .scene-fragment-1{--size:41%;--tilt:4deg;left:55%;top:14%}
+.living-scene[data-mode="internships"] .scene-fragment-2{--size:42%;--tilt:-3deg;left:11%;top:55%}
+.scene-photo.scene-internship{aspect-ratio:1.3;background:#ddd9cc;color:#1b1b1b;text-shadow:none}
+.scene-photo.scene-internship-hory{background:#25211d;color:#f3f3f1}
+.scene-photo.scene-internship-kassel{background:#b8b7af}
+.scene-photo>.internship-card-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.3;filter:saturate(.35);mix-blend-mode:luminosity}
+.scene-internship-hory:after{content:"";position:absolute;inset:0;background:linear-gradient(#15151520,#151515a8);pointer-events:none}
+.internship-poster{position:relative;z-index:1;display:flex;flex-direction:column;justify-content:space-between;min-height:205px;aspect-ratio:1.3;padding:22px}
+.internship-card-top{display:flex;justify-content:space-between;align-items:start;gap:18px}
+.internship-card-top .scene-number{color:inherit;font-size:.625rem;letter-spacing:.08em}
+.internship-card-top>svg{flex-shrink:0}
+.internship-card-mentor{display:block;font-size:clamp(1.2rem,2.9vw,2.5rem);line-height:1.02;letter-spacing:-.055em;font-weight:400;margin:18px 0}
+.internship-card-mentor>span{display:block}
+.internship-card-context{display:block;font-size:.6875rem;letter-spacing:.04em;margin-bottom:7px}
+.internship-card-bottom .scene-title{font-size:clamp(1rem,1.7vw,1.4rem);line-height:1.15;letter-spacing:-.025em}
+.internship-card-bottom .scene-role{color:inherit;opacity:.7;font-size:.6875rem;margin-top:6px}
+.internship-card-bottom .scene-excerpt{color:inherit;font-size:.75rem;margin-top:10px;line-height:1.4}
+.internship-card-bottom .scene-open{color:#a22b1b;font-size:.625rem;margin-top:10px}
+.scene-internship-hory .scene-open{color:#ff8e7c}
+.scene-internship .scene-preview{max-width:31ch}
+.detail-mentor{font-size:1rem;color:#ddd9cc;margin:12px 0 0}
+.internship-statement{margin-bottom:38px}
+.internship-statement h3{font-size:clamp(1.5rem,2.4vw,2rem);font-weight:400;line-height:1.22;letter-spacing:-.04em;margin:0 0 23px}
+.internship-statement>p{font-size:1rem;line-height:1.85;color:#d0d0ca;margin:0}
+.shared-reflection{margin-top:28px;padding-top:22px;border-top:1px solid #444}
+.shared-reflection>.eyebrow{font-size:.625rem;letter-spacing:.08em}
+.shared-reflection>div{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.shared-reflection button{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 12px;border:1px solid #68685f;background:none;color:#eee8dc;font-size:.75rem}
+.shared-reflection button:disabled{color:#aaa9a3;border-color:#393938;cursor:default}
+.shared-reflection button:not(:disabled):hover{border-color:#ef442e}
+.internship-information{min-width:0;padding-top:14px}
+.internship-facts{margin:0 0 28px}
+.internship-facts>div{display:grid;grid-template-columns:95px 1fr;gap:20px;padding:14px 0;border-bottom:1px solid #393938;font-size:.9375rem}
+.internship-facts dt{color:#aaa9a3}
+.internship-facts dd{margin:0}
+.internship-media-placeholder{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;min-height:160px;border:1px dashed #55554e;background:#20201e;color:#b4b4af}
+.internship-media-placeholder>span{font-size:.9375rem}
+.internship-media-placeholder>small{font-size:.75rem;color:#99998f}
+.internship-media-placeholder>svg{color:#d7d1c1}
+.internship-information .production-link{width:100%;margin-top:22px}
+@media(max-width:900px){.work-mode-note{font-size:.75rem;max-width:24ch}.internship-poster{padding:17px}.internship-card-mentor{font-size:2.8vw;margin:12px 0}.internship-card-bottom .scene-title{font-size:1rem}.internship-card-context{font-size:.625rem}.internship-information{padding-top:0}.internship-statement{margin-bottom:28px}}
+@media(max-width:640px){
+  .work-section{padding-bottom:12px}
+  .work-switcher{align-items:flex-start;flex-direction:column;gap:0;margin-top:25px}
+  .work-tabs{gap:30px;width:100%}
+  .work-tabs button{min-height:54px;font-size:1.4rem;gap:12px;padding:8px 0 14px}
+  .work-mode-note{text-align:left;max-width:none;margin:11px 0 14px;font-size:.75rem}
+  .work-section .scene-space{aspect-ratio:.49}
+  .work-section .scene-fragment-0{top:0}
+  .work-section .scene-fragment-1{top:32%}
+  .work-section .scene-fragment-2{top:64%}
+  .living-scene[data-mode="internships"] .scene-space{display:grid;aspect-ratio:auto;gap:35px;padding:8px 0 16px}
+  .living-scene[data-mode="internships"] .scene-fragment{position:relative;aspect-ratio:auto;--size:88%;top:auto;left:auto}
+  .living-scene[data-mode="internships"] .scene-fragment-0{margin-left:1%}
+  .living-scene[data-mode="internships"] .scene-fragment-1{margin-left:11%}
+  .living-scene[data-mode="internships"] .scene-fragment-2{margin-left:3%}
+  .scene-photo.scene-internship{aspect-ratio:auto}
+  .internship-poster{aspect-ratio:auto;min-height:235px;padding:18px}
+  .internship-card-mentor{font-size:clamp(1.3rem,6.2vw,2rem);margin:16px 0}
+  .internship-card-bottom .scene-title{font-size:1.15rem}
+  .internship-card-context{font-size:.6875rem}
+  .work-thread-exit{height:64px}
+  .internship-statement>p{font-size:.9375rem;line-height:1.8}
+  .internship-facts>div{grid-template-columns:80px 1fr;gap:14px}
+}
+@media(prefers-reduced-motion:reduce){.work-section .scene-card-enter{animation:none}.work-section .scene-fragment{transition:none}}

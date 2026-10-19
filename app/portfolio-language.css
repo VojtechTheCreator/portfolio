@@ -1,0 +1,42 @@
+.header-actions{display:flex;align-items:center;gap:26px;flex-shrink:0}
+.language-switch{display:inline-flex;align-items:center;gap:2px;white-space:nowrap;font-size:.75rem;color:#aaa9a3;letter-spacing:.035em}
+.language-switch button{min-width:35px;min-height:44px;padding:8px 5px;border:0;background:none;color:#aaa9a3;position:relative}
+.language-switch button[aria-pressed="true"]{color:#f3f3f1}
+.language-switch button[aria-pressed="true"]:after{content:"";position:absolute;left:8px;right:8px;bottom:7px;border-bottom:1px solid #ef442e}
+.language-switch button:hover{color:#fff}
+.language-switch>span{color:#65655e}
+.detail-top-actions{display:flex;align-items:center;gap:24px;flex-shrink:0}
+.detail-top>.eyebrow{flex:1;min-width:0;max-width:none}
+.detail-original-title{font-size:.8125rem;line-height:1.6;color:#aaa9a3;margin:12px 0 0}
+.lightbox-language{position:absolute;left:20px;top:16px;z-index:2;background:#151515dc;padding:0 6px}
+.internship-detail-photo{display:block;position:relative;width:100%;border:1px solid #ffffff24;background:#101010;padding:0;color:#fff}
+.internship-detail-photo>img{width:100%;max-height:420px;object-fit:contain}
+.internship-detail-photo>span{position:absolute;right:12px;bottom:12px;display:grid;place-items:center;width:38px;height:38px;border:1px solid #ffffff70;background:#151515c9;font-size:1.25rem}
+.internship-detail-photo:hover{border-color:#ef442e}
+.internship-photo-caption{font-size:.8125rem;color:#aaa9a3;margin:12px 0 22px}
+.scene-photo.scene-internship-dlouha,.scene-photo.scene-internship-kassel{background:#25211d;color:#f3f3f1}
+.scene-photo>.internship-card-photo{opacity:.67;mix-blend-mode:normal;filter:saturate(.7)}
+.scene-internship:after{content:"";position:absolute;inset:0;background:linear-gradient(#15151520,#15151575 35%,#151515e8);pointer-events:none}
+.scene-internship .scene-open{color:#ff9e8e}
+.internship-poster{text-shadow:0 1px 6px #0006}
+html[lang="de"] .hero-roles{font-size:clamp(1rem,1.65vw,1.375rem)}
+html[lang="de"] .work-mode-note{max-width:33ch}
+html[lang="de"] .scene-role{overflow-wrap:anywhere}
+@media(max-width:1100px){.header-note{display:none}.header-actions{gap:0}}
+@media(max-width:640px){
+  .header{display:grid;grid-template-columns:auto 1fr auto;row-gap:5px;padding-top:9px;padding-bottom:13px}
+  .header>.wordmark{grid-column:1;grid-row:1}
+  .header-actions{grid-column:3;grid-row:1}
+  .header nav{grid-column:1/-1;grid-row:2;justify-content:center;gap:16px;font-size:.8125rem}
+  .detail-top{gap:10px}
+  .detail-top-actions{gap:9px}
+  .detail-top-actions .language-switch{font-size:.6875rem}
+  .detail-top-actions .language-switch button{min-width:29px;padding-left:3px;padding-right:3px}
+  .detail-top-actions .close-button{gap:4px;font-size:.75rem}
+  .lightbox-language{left:12px;top:12px}
+  .internship-detail-photo>img{max-height:43dvh}
+  html[lang="de"] .work-mode-note{max-width:none}
+  html[lang="de"] .work-tabs{gap:22px}
+  html[lang="de"] .work-tabs button{font-size:clamp(1rem,4.5vw,1.35rem);gap:10px}
+}
+@media(max-width:350px){.header nav{gap:12px;font-size:.75rem}.detail-top-actions .close-button>span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.detail-top-actions .close-button{min-width:36px;justify-content:center}}

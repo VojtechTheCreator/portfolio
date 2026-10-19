@@ -1,0 +1,522 @@
+[
+  {
+    "source": "drizzle/meta/_journal.json",
+    "target": "dist/.openai/drizzle/meta/_journal.json",
+    "sha256": "90cb374e093894d0efce6f1830d873a42aadd8ba49d2f024495e5cb2e1c8c303"
+  },
+  {
+    "source": ".openai/hosting.json",
+    "target": "dist/.openai/hosting.json",
+    "sha256": "e4971d873bedec8cb0763f7a451f4c42c763889e9b139c779cc85a43745df550"
+  },
+  {
+    "source": "public/favicon.svg",
+    "target": "dist/client/favicon.svg",
+    "sha256": "c12a78f751bcc2d4a7e17a00ef59ae5cf3275826f91b166870cd5f0f3b369a6a"
+  },
+  {
+    "source": "public/media/ec-dysis/01-thumb.webp",
+    "target": "dist/client/media/ec-dysis/01-thumb.webp",
+    "sha256": "ba7ef52357f0fa047f096bb517bec16bb1baeb6fb90c3c49ad9ceeea5bfc8695"
+  },
+  {
+    "source": "public/media/ec-dysis/01.webp",
+    "target": "dist/client/media/ec-dysis/01.webp",
+    "sha256": "95be2a753a291b211ac746d323519d7f5011615ce392c217ba13899bbfa727a7"
+  },
+  {
+    "source": "public/media/ec-dysis/02-thumb.webp",
+    "target": "dist/client/media/ec-dysis/02-thumb.webp",
+    "sha256": "d525ef949c74f96ffdf894079f1920a29004c67c2c78fce9f7a880683c2f7c5c"
+  },
+  {
+    "source": "public/media/ec-dysis/02.webp",
+    "target": "dist/client/media/ec-dysis/02.webp",
+    "sha256": "dcbd200266c32265f4bce3f9016050ef5c268a17d6bb3349fd5c5fa7d34a0665"
+  },
+  {
+    "source": "public/media/ec-dysis/03-thumb.webp",
+    "target": "dist/client/media/ec-dysis/03-thumb.webp",
+    "sha256": "61a4b050761eccc7be15cb99bb9a83cec25d616161797ea76d170c7d2741e9b0"
+  },
+  {
+    "source": "public/media/ec-dysis/03.webp",
+    "target": "dist/client/media/ec-dysis/03.webp",
+    "sha256": "7b044dace6a02ef2972fa290b5b168193cd2b36e938c8d9d4bc1eaa1d449518c"
+  },
+  {
+    "source": "public/media/ec-dysis/04-thumb.webp",
+    "target": "dist/client/media/ec-dysis/04-thumb.webp",
+    "sha256": "5a926dba4a3f6b6d82146eaeec6f00c187b4dc405ebd115dea11358d0bcbcfe8"
+  },
+  {
+    "source": "public/media/ec-dysis/04.webp",
+    "target": "dist/client/media/ec-dysis/04.webp",
+    "sha256": "75ed6f019c2fcb724a6acb45e71481d443fbee724a3d1eb141b26b6867351f2c"
+  },
+  {
+    "source": "public/media/ec-dysis/05-thumb.webp",
+    "target": "dist/client/media/ec-dysis/05-thumb.webp",
+    "sha256": "cdb040e0cccfe63b9d2b7d2e324f8acd3b7817aa345e56ec74cc88238798b420"
+  },
+  {
+    "source": "public/media/ec-dysis/05.webp",
+    "target": "dist/client/media/ec-dysis/05.webp",
+    "sha256": "20d6816878199cd5b3dcd46fc7769dffe1aa3d996b7c57aa4ac25b55660548c8"
+  },
+  {
+    "source": "public/media/ec-dysis/06-thumb.webp",
+    "target": "dist/client/media/ec-dysis/06-thumb.webp",
+    "sha256": "a12741938ac2ec835e33116471b890c24f367d20118fc3dac31ad6e4996ae763"
+  },
+  {
+    "source": "public/media/ec-dysis/06.webp",
+    "target": "dist/client/media/ec-dysis/06.webp",
+    "sha256": "e67b5714f0e95b03d20f7b0f36661ee6546b04e68a09f46c1aa2f90aa2f614ec"
+  },
+  {
+    "source": "public/media/ec-dysis/07-thumb.webp",
+    "target": "dist/client/media/ec-dysis/07-thumb.webp",
+    "sha256": "8428e87a0b77d61f1d58dbd7df0514cd125bf806aa457f67cfe5ced67220b0ac"
+  },
+  {
+    "source": "public/media/ec-dysis/07.webp",
+    "target": "dist/client/media/ec-dysis/07.webp",
+    "sha256": "af908f7da76a4150b37288cc8ce8b0c1da23381e1c1d3246f852c5d2a3829569"
+  },
+  {
+    "source": "public/media/ec-dysis/08-thumb.webp",
+    "target": "dist/client/media/ec-dysis/08-thumb.webp",
+    "sha256": "6f6084cb4c6bf0c438da29b39e377f839fd2718a0e8a5df928e0670636677cba"
+  },
+  {
+    "source": "public/media/ec-dysis/08.webp",
+    "target": "dist/client/media/ec-dysis/08.webp",
+    "sha256": "af1d0b2632ab85fda9f3bbbde850e0b94d27ba8298374ae5d626f733afbf6954"
+  },
+  {
+    "source": "public/media/ec-dysis/09-thumb.webp",
+    "target": "dist/client/media/ec-dysis/09-thumb.webp",
+    "sha256": "f65eebb0b861bf43bbcb6e9055a25c9ecbca6e99929b7b4192d52417fde1db78"
+  },
+  {
+    "source": "public/media/ec-dysis/09.webp",
+    "target": "dist/client/media/ec-dysis/09.webp",
+    "sha256": "9d06e02679db70c7c1a193e562c0f79aca4f5d2bfc6fbcbfb0f33fe2af3cba76"
+  },
+  {
+    "source": "public/media/ec-dysis/10-thumb.webp",
+    "target": "dist/client/media/ec-dysis/10-thumb.webp",
+    "sha256": "b53be8cad11cd8f2812cc9b407eac6fd81185116cdb9d2c5a2c0a027fd2b007b"
+  },
+  {
+    "source": "public/media/ec-dysis/10.webp",
+    "target": "dist/client/media/ec-dysis/10.webp",
+    "sha256": "e1ace8f9768c5496ca8a25f23326a75868111efe331ca1eb4bcd170beac3b6a7"
+  },
+  {
+    "source": "public/media/holozaen/01-thumb.webp",
+    "target": "dist/client/media/holozaen/01-thumb.webp",
+    "sha256": "e7f07d08b0f202b7b1f032a9988b4043006ef7ce1a387b4ec3fb677f442b960a"
+  },
+  {
+    "source": "public/media/holozaen/01.webp",
+    "target": "dist/client/media/holozaen/01.webp",
+    "sha256": "70eaf035dd8a3eb7f598e42439196a172169da890e19a68e0d8398bc35110154"
+  },
+  {
+    "source": "public/media/hory-doly/01-thumb.webp",
+    "target": "dist/client/media/hory-doly/01-thumb.webp",
+    "sha256": "d9a2ce8d81e527edbd66e8dae3b136e4e88bdf212f589dd6aa5d2262475398c3"
+  },
+  {
+    "source": "public/media/hory-doly/01.webp",
+    "target": "dist/client/media/hory-doly/01.webp",
+    "sha256": "4fdffc6fb4bf68e3eafbfff9c37545d88c79979cf37d09cce10ac9cca77106de"
+  },
+  {
+    "source": "public/media/hory-doly/02-thumb.webp",
+    "target": "dist/client/media/hory-doly/02-thumb.webp",
+    "sha256": "2395a59212cff6824d092fd4cb46ce3f9fb4d13d7eb13234538c355cdf224ba2"
+  },
+  {
+    "source": "public/media/hory-doly/02.webp",
+    "target": "dist/client/media/hory-doly/02.webp",
+    "sha256": "1060217a03eea5699c905de21f9b3b9d44e0b16b8fbb7033b0d351059403df00"
+  },
+  {
+    "source": "public/media/hory-doly/03-thumb.webp",
+    "target": "dist/client/media/hory-doly/03-thumb.webp",
+    "sha256": "8229643193afcd03673fd5cfdd45430571a4ec858771bde7b7b016d2e16a0484"
+  },
+  {
+    "source": "public/media/hory-doly/03.webp",
+    "target": "dist/client/media/hory-doly/03.webp",
+    "sha256": "4c1914560650213e011a0241cf2a799f959ed7d25dfcb6bbbc0cbd444abf7cd4"
+  },
+  {
+    "source": "public/media/hory-doly/04-thumb.webp",
+    "target": "dist/client/media/hory-doly/04-thumb.webp",
+    "sha256": "07d27ba62bd512b0c15c4d9f74ccde3704307923a9036d1f5f1b0dde57f9e2b5"
+  },
+  {
+    "source": "public/media/hory-doly/04.webp",
+    "target": "dist/client/media/hory-doly/04.webp",
+    "sha256": "e68d3277639776b058baabb755bd2d6e3e2fc6a1fefbe651ca2e8925e2cd3414"
+  },
+  {
+    "source": "public/media/mad/01-thumb.webp",
+    "target": "dist/client/media/mad/01-thumb.webp",
+    "sha256": "2bac032dec984421f033d3fa1bea0c32374aae1f5e81bfa58b8ed8a7ede3005a"
+  },
+  {
+    "source": "public/media/mad/01.webp",
+    "target": "dist/client/media/mad/01.webp",
+    "sha256": "1942091d3cee8ccf84cb28e77350ecffee030fa7f7a0974556d4076212e7d8ed"
+  },
+  {
+    "source": "public/media/mad/02-thumb.webp",
+    "target": "dist/client/media/mad/02-thumb.webp",
+    "sha256": "d32ace7e74db9fafd676ca24ec52b799420a753288a04243673bf83f5c00ed21"
+  },
+  {
+    "source": "public/media/mad/02.webp",
+    "target": "dist/client/media/mad/02.webp",
+    "sha256": "942f0e62c3626e386e4727d4db8bfc42578332ae708cbace6b350fddd29b49f4"
+  },
+  {
+    "source": "public/media/mad/03-thumb.webp",
+    "target": "dist/client/media/mad/03-thumb.webp",
+    "sha256": "332513c3db76738a26f43c8e6f49b7b6d4f58968c5268bd57c47a9cd005d1089"
+  },
+  {
+    "source": "public/media/mad/03.webp",
+    "target": "dist/client/media/mad/03.webp",
+    "sha256": "f1353ba8087d4a168d25cab7e4966896913890f8784caa10c48690903f8adf20"
+  },
+  {
+    "source": "public/media/mad/04-thumb.webp",
+    "target": "dist/client/media/mad/04-thumb.webp",
+    "sha256": "dc3e48087b91f9bbf64f28d74df5c3dfcfd5bd38e9772a73e0dacb3a719f0df4"
+  },
+  {
+    "source": "public/media/mad/04.webp",
+    "target": "dist/client/media/mad/04.webp",
+    "sha256": "a9caa700e0681a6ae7cbd29d03a390b0f10e79b50728b80c2c0d1d1d616b6b33"
+  },
+  {
+    "source": "public/media/mad/05-thumb.webp",
+    "target": "dist/client/media/mad/05-thumb.webp",
+    "sha256": "425efada5b086ba6a08c581c6df820819ecc55bb5e79d1b1ec48c19440c27ab2"
+  },
+  {
+    "source": "public/media/mad/05.webp",
+    "target": "dist/client/media/mad/05.webp",
+    "sha256": "f724715ba3c903cf416d6cc7b6ec9bb7535cae0006044f0cd9b34486b31ffee3"
+  },
+  {
+    "source": "public/media/mad/06-thumb.webp",
+    "target": "dist/client/media/mad/06-thumb.webp",
+    "sha256": "fc72eb5a1ba394d421bc28a78a799a5bcf1ca1fb46a155932fcc6b7778276c68"
+  },
+  {
+    "source": "public/media/mad/06.webp",
+    "target": "dist/client/media/mad/06.webp",
+    "sha256": "24ac9f8bece57568948a5e08afab03f45e8e8b47383369d276ca90b39c443dfe"
+  },
+  {
+    "source": "public/media/mad/07-thumb.webp",
+    "target": "dist/client/media/mad/07-thumb.webp",
+    "sha256": "26f4ca67a6abda3c33bfc456bb036265eb60f205aeccace212245ad7b047adfe"
+  },
+  {
+    "source": "public/media/mad/07.webp",
+    "target": "dist/client/media/mad/07.webp",
+    "sha256": "8196822ee03254833c500009bdf413daac799fd6913468e2cdc1cd557f03f432"
+  },
+  {
+    "source": "public/media/mad/08-thumb.webp",
+    "target": "dist/client/media/mad/08-thumb.webp",
+    "sha256": "175906ce143c2208a83c2628eec4fc35291b3015cba3c628ca8138e6b8eeb0d7"
+  },
+  {
+    "source": "public/media/mad/08.webp",
+    "target": "dist/client/media/mad/08.webp",
+    "sha256": "5dd72a08f871cbdd0a73d0146b939db05850166f3401c043fb8bbc12a5eb0654"
+  },
+  {
+    "source": "public/media/mad/09-thumb.webp",
+    "target": "dist/client/media/mad/09-thumb.webp",
+    "sha256": "3bfaa3119185de4a81ea5dda68bab1c7f1707ab36f63a16674b0e1b80a0de81e"
+  },
+  {
+    "source": "public/media/mad/09.webp",
+    "target": "dist/client/media/mad/09.webp",
+    "sha256": "015ed855cf0e9ff32b7ea23f3daf668d109c69b02e8d3e52333b290fdbe73e70"
+  },
+  {
+    "source": "public/media/mad/10-thumb.webp",
+    "target": "dist/client/media/mad/10-thumb.webp",
+    "sha256": "d3cf2db8538ff58c83becbd3f943ec1cf8b83a6f145d96f6268a511aa549350c"
+  },
+  {
+    "source": "public/media/mad/10.webp",
+    "target": "dist/client/media/mad/10.webp",
+    "sha256": "5f0993fec4b33ec9cfd909da577aa81e14b8fb4b16e6a0ca74c7bc9db03254dd"
+  },
+  {
+    "source": "public/media/portrait.jpg",
+    "target": "dist/client/media/portrait.jpg",
+    "sha256": "c03f3f907d1018778d0a6a79333c9a1893166f1231f9eaada1be85d643c52e94"
+  },
+  {
+    "source": "public/media/scene/ec-dysis-crisis-mami.webp",
+    "target": "dist/client/media/scene/ec-dysis-crisis-mami.webp",
+    "sha256": "a82592e5f87b8015fd089da0f2649ce6685f8718903b781a04c6144d82780c48"
+  },
+  {
+    "source": "public/media/scene/hory-doly-epizody.webp",
+    "target": "dist/client/media/scene/hory-doly-epizody.webp",
+    "sha256": "61933689e685232e339fdb64dd2a3ef298c7e31e5093a6116574c1ae90b508d7"
+  },
+  {
+    "source": "public/media/scene/mad.webp",
+    "target": "dist/client/media/scene/mad.webp",
+    "sha256": "1c86f1823ed9ce7048b712fd6da56e4d0c0694098384be2f35b9ba04afa1f2ac"
+  },
+  {
+    "source": "public/media/scene/zakon-rady.webp",
+    "target": "dist/client/media/scene/zakon-rady.webp",
+    "sha256": "a613c4ec69a7dbdedac420ca8991ed16492d683837a0b5fa377104c7049eba02"
+  },
+  {
+    "source": "public/media/short-circuit/evil-face-0.webp",
+    "target": "dist/client/media/short-circuit/evil-face-0.webp",
+    "sha256": "87fb8c79081f91026366e5628de47ba36282174ebb788195a5f1f4f7001773aa"
+  },
+  {
+    "source": "public/media/short-circuit/evil-face-1.webp",
+    "target": "dist/client/media/short-circuit/evil-face-1.webp",
+    "sha256": "623ef03d94c5f0d7ea4f2604281d2b0ddaa132733028b2dd5e146cd6f91c9bfe"
+  },
+  {
+    "source": "public/media/short-circuit/evil-face-2.webp",
+    "target": "dist/client/media/short-circuit/evil-face-2.webp",
+    "sha256": "06fd2cee898aeb84da6524c9e8e105127046e983d813ef41bddfb7bc333fe23e"
+  },
+  {
+    "source": "public/media/short-circuit/evil-face-3.webp",
+    "target": "dist/client/media/short-circuit/evil-face-3.webp",
+    "sha256": "6affd60d7b6c65bd89e994d5a25171e89c5739841595ae282e2294126233c915"
+  },
+  {
+    "source": "public/media/short-circuit/evil-face-4.webp",
+    "target": "dist/client/media/short-circuit/evil-face-4.webp",
+    "sha256": "7b2be6f8aa6b3fb7b42f0b0a2df4f2b889395fe7caa19a573f5c2b4a05c7fce6"
+  },
+  {
+    "source": "public/media/short-circuit/evil-face-5.webp",
+    "target": "dist/client/media/short-circuit/evil-face-5.webp",
+    "sha256": "03ef0bad17db9b8fad2a55e41f25f10f0ef5d0ab076188488713f3cdc5b7cd8d"
+  },
+  {
+    "source": "public/media/short-circuit/evil-sprite.png",
+    "target": "dist/client/media/short-circuit/evil-sprite.png",
+    "sha256": "f464a816431470cfd13c44ddf7357ea974aa7d6b063a28fa5f7729c45d054936"
+  },
+  {
+    "source": "public/media/short-circuit/face-0.webp",
+    "target": "dist/client/media/short-circuit/face-0.webp",
+    "sha256": "48705b1c5edf755f52ff959ae5e617b07d34c2632683d844430dd442a2f3de14"
+  },
+  {
+    "source": "public/media/short-circuit/face-1.webp",
+    "target": "dist/client/media/short-circuit/face-1.webp",
+    "sha256": "2cc4cfbcefadee893821b2d74c287e0ec927b71c4c90a65d3273884c93885257"
+  },
+  {
+    "source": "public/media/short-circuit/face-2.webp",
+    "target": "dist/client/media/short-circuit/face-2.webp",
+    "sha256": "e21193b27ff9d2f988ca5e4b4ceddcec02fe0d972c2ae894260b81d31fd75dbe"
+  },
+  {
+    "source": "public/media/short-circuit/face-3.webp",
+    "target": "dist/client/media/short-circuit/face-3.webp",
+    "sha256": "98c9855ef9412e9a294a4895e0c5e2d44f41949a810c796fad6a652529bc4f7e"
+  },
+  {
+    "source": "public/media/short-circuit/face-4.webp",
+    "target": "dist/client/media/short-circuit/face-4.webp",
+    "sha256": "44089f68edcc4a2945f7eb5f9c8f1b2ee16462f525498f59f51d3149d7e1eeb6"
+  },
+  {
+    "source": "public/media/short-circuit/face-5.webp",
+    "target": "dist/client/media/short-circuit/face-5.webp",
+    "sha256": "c9815da60f5c0fba67c8beb1fc42e0053b01e0da2e91d82c1d2514c489a7085c"
+  },
+  {
+    "source": "public/media/short-circuit/head-neutral.webp",
+    "target": "dist/client/media/short-circuit/head-neutral.webp",
+    "sha256": "d23c078bb0f2f71152116d09d1cfd8226f4f3cdd530052bb0de6052784c8c8ba"
+  },
+  {
+    "source": "public/media/short-circuit/head-wink.webp",
+    "target": "dist/client/media/short-circuit/head-wink.webp",
+    "sha256": "0556858844ae68a857533f6e0fc2a4bfe00f8725faaa42f9dc04798569c06563"
+  },
+  {
+    "source": "public/media/short-circuit/laugh-sprite.png",
+    "target": "dist/client/media/short-circuit/laugh-sprite.png",
+    "sha256": "d746140ff83a18b836a32c56c643e3c36ff2dcaaaac2b82ca7683d5e987973da"
+  },
+  {
+    "source": "public/media/short-circuit/photo-0.webp",
+    "target": "dist/client/media/short-circuit/photo-0.webp",
+    "sha256": "f55330a804cfbd9adc8c9ef473b0e55260cde3193c8ce1238da519f67c73e193"
+  },
+  {
+    "source": "public/media/short-circuit/photo-1.webp",
+    "target": "dist/client/media/short-circuit/photo-1.webp",
+    "sha256": "ad9f2b6b2596d10852f8de127812c9aeb04e9d0a42ea3b832f19b3f42a518c2b"
+  },
+  {
+    "source": "public/media/short-circuit/photo-10.webp",
+    "target": "dist/client/media/short-circuit/photo-10.webp",
+    "sha256": "259e5b131c31bbead287a6bf1e40f90d7112cd358e8afd63a5de25be17c5d53a"
+  },
+  {
+    "source": "public/media/short-circuit/photo-11.webp",
+    "target": "dist/client/media/short-circuit/photo-11.webp",
+    "sha256": "fdf0ac57c29618c5697c7d335a899edb104944327643e38a99a62da896a64561"
+  },
+  {
+    "source": "public/media/short-circuit/photo-2.webp",
+    "target": "dist/client/media/short-circuit/photo-2.webp",
+    "sha256": "5bfaa75d3ebfe2ee05e10e5e5b143ff1d881866414e854354357265a0c1c790a"
+  },
+  {
+    "source": "public/media/short-circuit/photo-3.webp",
+    "target": "dist/client/media/short-circuit/photo-3.webp",
+    "sha256": "bac012ce81601e99f6f417490ae36afbf9647eb95404e84e02704f0fb3dc71de"
+  },
+  {
+    "source": "public/media/short-circuit/photo-4.webp",
+    "target": "dist/client/media/short-circuit/photo-4.webp",
+    "sha256": "159320519bdbcc494d30812b8c097dbdbf504200ad9c9a6c702fe236ca272693"
+  },
+  {
+    "source": "public/media/short-circuit/photo-5.webp",
+    "target": "dist/client/media/short-circuit/photo-5.webp",
+    "sha256": "7b062d0ea2d118ad575c29414422346f890b5ace6e44bebfc929c4c49d005bd8"
+  },
+  {
+    "source": "public/media/short-circuit/photo-6.webp",
+    "target": "dist/client/media/short-circuit/photo-6.webp",
+    "sha256": "c283c7958d640a399d6d8455f7c42bb978df9fe97280d41175445ee61f76392e"
+  },
+  {
+    "source": "public/media/short-circuit/photo-7.webp",
+    "target": "dist/client/media/short-circuit/photo-7.webp",
+    "sha256": "46ff93608e31b0a4f8deff288f3ebb0fc6d7a9951c83a7c587fb8b73ca6c878c"
+  },
+  {
+    "source": "public/media/short-circuit/photo-8.webp",
+    "target": "dist/client/media/short-circuit/photo-8.webp",
+    "sha256": "3068d5fc877e64636d4fa329302e3f7d97cc9486b7064c3a8a9f6b918c7f8fe5"
+  },
+  {
+    "source": "public/media/short-circuit/photo-9.webp",
+    "target": "dist/client/media/short-circuit/photo-9.webp",
+    "sha256": "519c876ae4d1e80a55ee2ac4fc2cbff60e07d013806577538cce28002614b22b"
+  },
+  {
+    "source": "public/media/vegetarianka/01-thumb.webp",
+    "target": "dist/client/media/vegetarianka/01-thumb.webp",
+    "sha256": "c2f0e1e844d99fbec01c45ef72fee41515266189c68c3a372a2076497848248a"
+  },
+  {
+    "source": "public/media/vegetarianka/01.webp",
+    "target": "dist/client/media/vegetarianka/01.webp",
+    "sha256": "29ff16fb362279a0e72556c06a15a8a206751a7b7645bc6f0212a95491065397"
+  },
+  {
+    "source": "public/media/zakon-rady/01-thumb.webp",
+    "target": "dist/client/media/zakon-rady/01-thumb.webp",
+    "sha256": "0ab74974485764e187f1f706741e83f3406e7243030e281fe6b36c68caa02d80"
+  },
+  {
+    "source": "public/media/zakon-rady/01.webp",
+    "target": "dist/client/media/zakon-rady/01.webp",
+    "sha256": "aa7de43685a8a606a81f8596a08a25ad4448ea7b71af1a6bfede4ec605601abe"
+  },
+  {
+    "source": "public/media/zakon-rady/02-thumb.webp",
+    "target": "dist/client/media/zakon-rady/02-thumb.webp",
+    "sha256": "7de55f0d5f3287ef7c4506cec669d361f5dd6d7c2206a1bd53490815941c614c"
+  },
+  {
+    "source": "public/media/zakon-rady/02.webp",
+    "target": "dist/client/media/zakon-rady/02.webp",
+    "sha256": "c1732bff41a2341134e1b4ffe05f4e8e7e588b3be052eb211e62f58253722657"
+  },
+  {
+    "source": "public/media/zakon-rady/03-thumb.webp",
+    "target": "dist/client/media/zakon-rady/03-thumb.webp",
+    "sha256": "704b633f8ea8cc2044480151278a4be3b37db2b22f17b7cabbc9d0366309e05a"
+  },
+  {
+    "source": "public/media/zakon-rady/03.webp",
+    "target": "dist/client/media/zakon-rady/03.webp",
+    "sha256": "c063e5fcdfd98ccaeaf4625f171f15e050ff8a76446abd7b8cde8677e5de1759"
+  },
+  {
+    "source": "public/media/zakon-rady/04-thumb.webp",
+    "target": "dist/client/media/zakon-rady/04-thumb.webp",
+    "sha256": "0f2404a4ea2098b37ef9c2b1a1e6e993e56c83122573aff61a5a7dd5eafe3ca6"
+  },
+  {
+    "source": "public/media/zakon-rady/04.webp",
+    "target": "dist/client/media/zakon-rady/04.webp",
+    "sha256": "51c286a7b2887a9196653fc84b98ed36f5174ae10f63c37a319f0343f8fd950d"
+  },
+  {
+    "source": "public/media/zakon-rady/05-thumb.webp",
+    "target": "dist/client/media/zakon-rady/05-thumb.webp",
+    "sha256": "1441658dfc8033b97c22064a038b0d5e73b15c3f4c9b52ba2db4908c4dab99f7"
+  },
+  {
+    "source": "public/media/zakon-rady/05.webp",
+    "target": "dist/client/media/zakon-rady/05.webp",
+    "sha256": "ddf11bfd170f866eba76bbea55d77cc6a920f10436f355bc5ed84207a6a3415d"
+  },
+  {
+    "source": "dist/client/_next/static/css/index.5d0KD_HM.css",
+    "target": "dist/server/_next/static/css/index.5d0KD_HM.css",
+    "sha256": "e5677eede897a43386b90208a6beceb0f1ee4cb26247e9649c0f11fa59ce0991"
+  },
+  {
+    "source": "dist/client/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+    "target": "dist/server/_next/static/rolldown-runtime-DUnMT5BP.js",
+    "sha256": "5db5ba82eef00d1dee7e86e663098c9427d01183a88d357437daff295aec3e75"
+  },
+  {
+    "source": "dist/server/__vite_rsc_assets_manifest.js",
+    "target": "dist/server/ssr/__vite_rsc_assets_manifest.js",
+    "sha256": "4ae09914b3d9c32310df5e7394c574800777c0deb9c5b5f55cb890431aa3c284"
+  },
+  {
+    "source": "dist/client/_next/static/css/page.a68_ssTi.css",
+    "target": "dist/server/ssr/_next/static/css/page.a68_ssTi.css",
+    "sha256": "5c6d09bbdb7fb63493b8555c6dfe05e13d4ea16b5e54999601ffc364c25c2d33"
+  },
+  {
+    "source": "dist/server/ssr/vinext-client-assets.js",
+    "target": "dist/server/vinext-client-assets.js",
+    "sha256": "e485b835f5d0c92be23d957b8b0341bd9b6d3f38bd455db7d06c9ca58e43b9f3"
+  },
+  {
+    "source": "dist/server/ssr/vinext-server.json",
+    "target": "dist/server/vinext-server.json",
+    "sha256": "44dbb5b8d16794dfb9a7bc1d09e46fd2fbcba6c40e77e47408e9794ceb1b1200"
+  }
+]

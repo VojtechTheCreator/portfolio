@@ -1,0 +1,9 @@
+node_modules/
+.wrangler/
+.sites-runtime/
+.vinext/
+.dev.vars
+.env*
+.DS_Store
+.next/
+next-env.d.ts
